@@ -3,6 +3,6 @@ const routes = express.Router();
 
 const APIRequests = require('./controllers/APIRequests');
 
-routes.get('/acessToken', APIRequests.getAcessToken);
+routes.get('/accessToken', APIRequests.getAccessToken);
 
 module.exports = routes;
